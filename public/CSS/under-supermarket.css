@@ -1,0 +1,25 @@
+
+.under-supermarket{
+
+
+
+    width: 70%;
+      height: 240px;
+      border-radius: 15px;
+      display: flex;
+      justify-content: space-between;
+      column-gap: 5px;
+    
+      .under-supermarket-item{
+      
+       
+        a{
+          img{
+            width: 320px;
+            border-radius: 15px;
+          }
+        }
+      }
+
+
+}

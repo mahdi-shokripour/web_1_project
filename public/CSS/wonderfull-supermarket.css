@@ -1,0 +1,99 @@
+.wonderfull__supermarket {
+  width: 70%;
+  height: 110px;
+  background-color: #eceeee;
+  margin: 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+  column-gap: 5px;
+
+  .wonderfull__supermarket__right {
+    width: 40%;
+    height: inherit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .box {
+      width: 108px;
+      height: 30px;
+      background-color: #029a49;
+      border-radius: 15px;
+      h2 {
+        color: whitesmoke;
+        font-family: b-nazanin;
+        font-size: 16px;
+        text-align: center;
+        line-height: 30px;
+      }
+    }
+  }
+  .wonderfull__supermarket__center {
+    width: 47%;
+    height: inherit;
+    display: flex;
+    justify-content: end;
+    column-gap: 8px;
+    padding-top: 15px;
+
+    .wonderfull__supermarket__center__item {
+      position: relative;
+      img {
+        width: 68px;
+        height: 68px;
+        object-fit: cover;
+        border-radius: 50px;
+      }
+      .wonderfull__supermarket__center__item__sub {
+        width: 30px;
+        height: 20px;
+        background-color: crimson;
+        position: absolute;
+        border-radius: 15px;
+        position: absolute;
+        top: 0;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span {
+          font-size: 14px;
+          font-family: b-nazanin;
+          text-align: center;
+          line-height: 15px;
+          font-weight: bold;
+          color: whitesmoke;
+        }
+      }
+    }
+  }
+  .wonderfull__supermarket__left {
+    width: 13%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .wonderfull__supermarket__left__item {
+      width: 140px;
+      height: 50px;
+      background-color: #ffffff;
+      border-radius: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 10px;
+      span {
+        font-family: iranyekan;
+        font-size: 13px;
+        color: #29a965;
+        font-weight: bold;
+        .adad {
+          font-family: b-nazanin;
+        }
+      }
+    }
+  }
+}

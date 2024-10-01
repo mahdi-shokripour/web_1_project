@@ -1,0 +1,17 @@
+.banner{
+    width: 70%;
+    height: 170px;
+    background-color: brown;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    display: flex;
+
+    img{
+        width: 100%;
+        height: inherit;
+        border-radius: 15px;
+        /* object-fit: cover; */
+    }
+
+
+}

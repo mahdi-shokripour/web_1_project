@@ -1,0 +1,129 @@
+.digiclub {
+  width: 70%;
+  height: 90px;
+  background-image: linear-gradient(
+    to right,
+    rgba(53, 166, 200, 1),
+    rgba(0, 114, 149, 1)
+  );
+  border-radius: 15px;
+  border: 1px solid lightgray;
+  margin: 20px 0px 20px 0px;
+  box-sizing: content-box;
+  display: flex;
+
+  .digiclub__right {
+    width: 40%;
+    height: inherit;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-right: 42px;
+
+    img {
+      width: 119px;
+      height: 33px;
+    }
+  }
+  .digiclub__left {
+    width: 60%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    column-gap: 5px;
+
+    .digiclub__left__item__right {
+      width: 33%;
+      height: 64px;
+      border-radius: 0px 15px 15px 0px;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: end;
+      column-gap: 10px;
+      align-items: center;
+
+      .img1 {
+        width: 30px;
+        height: 30px;
+
+       
+
+        svg {
+        }
+      }
+      div {
+        span {
+          font-size: 10px;
+          font-family: iranyekan;
+        }
+      }
+      .img2 {
+        width: 148px;
+        height: 60px;
+      }
+    }
+
+    .digiclub__left__item__center {
+      width: 33%;
+      height: 64px;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: end;
+      column-gap: 10px;
+      align-items: center;
+
+      .img1 {
+        width: 30px;
+        height: 30px;
+
+     
+
+        svg {
+        }
+      }
+      div {
+        span {
+          font-size: 10px;
+          font-family: iranyekan;
+        }
+      }
+      .img2 {
+        width: 148px;
+        height: 60px;
+      }
+    }
+
+    .digiclub__left__item__left {
+      width: 33%;
+      height: 64px;
+      border-radius: 15px 0px 0px 15px;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: end;
+      column-gap: 10px;
+      align-items: center;
+
+      .img1 {
+        width: 30px;
+        height: 30px;
+
+       
+
+        svg {
+        }
+      }
+      div {
+        span {
+          font-size: 10px;
+          font-family: iranyekan;
+        }
+      }
+      .img2 {
+        width: 148px;
+        height: 60px;
+        padding-left: 20px;
+      }
+    }
+  }
+}
